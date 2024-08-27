@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 03</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+<!-- Tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awosome cdn -->
+    <script src="https://kit.fontawesome.com/a83d543727.js" crossorigin="anonymous"></script>
+
+    <!-- DaisyUI cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        .font{
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+</head>
+<body class="font">
+    <main class="max-w-screen-xl mx-auto px-5 md:px-[32px] lg:px-[60px]">
+        <header>
+            <nav>
+                <div class="navbar bg-base-100">
+                    <div class="navbar-start">
+                      <div class="dropdown">
+                        
+                        <ul
+                          tabindex="0"
+                          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                          <li><a>Item 1</a></li>
+                          <li>
+                            <a>Parent</a>
+                            <ul class="p-2">
+                              <li><a>Submenu 1</a></li>
+                              <li><a>Submenu 2</a></li>
+                            </ul>
+                          </li>
+                          <li><a>Item 3</a></li>
+                        </ul>
+                      </div>
+                      <i class="fa-solid fa-arrow-right ml-2 -rotate-45 bg-[#ABEF5F] p-2 rounded-full "></i>
+                      <a class="btn btn-ghost text-xl text-[#212121] font-extrabold text-[32px]">Rinterio</a>
+                    </div>
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ml-32">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="h-5 w-5"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke="currentColor">
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                      </div>
+                    <div class="-ml-32 navbar-center hidden md:hidden lg:flex">
+                      <ul class="menu menu-horizontal px-1 gap-0">
+                        <li class="font-extrabold text-base"><a>Home</a></li>
+                        <li class="text-base"><a>Portfolio</a></li>
+                        <li class="text-base"><a>Services</a></li>
+                        <li class="text-base"><a>Blogs</a></li>
+                        <li class="text-base"><a>Contact Us</a></li>
+                      </ul>
+                    </div>
+                    <div class="navbar-end gap-5">
+                   <div class="hidden sm:flex bg-[#FFFFFF] rounded-full border border-[#E9E9E9] p-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="size-5 ">
+                        <path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 1 0 0 11 5.5 5.5 0 0 0 0-11ZM2 9a7 7 0 1 1 12.452 4.391l3.328 3.329a.75.75 0 1 1-1.06 1.06l-3.329-3.328A7 7 0 0 1 2 9Z" clip-rule="evenodd" />
+                      </svg>
+                   </div>
+                      
+                      
+                      
+                    <div class="hidden sm:flex bg-[#FFFFFF] rounded-full border border-[#E9E9E9] p-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                          </svg>
+                    </div>
+                      
+                    <div>
+                      <a class="hidden sm:flex bg-lime-400 text-black  py-2 px-4 rounded-full items-center space-x-2 font-bold">Book Consult <i class="fa-solid fa-arrow-right ml-1 -rotate-45 bg-[#1C1C1C] text-[#FFFFFF] p-2 rounded-full "></i></a>
+                    </div>
+                    
+                  </div>
+            </nav>
+            <!-- Banner section -->
+         <div  class="mb-6 text-center">
+            <div class="flex justify-center items-center"><img src="./assets/banner.png" alt=""></div> 
+            <br>
+                <h1 class="text-[28px] lg:text-6xl font-extrabold text-[#212121] ">A barn house of this design has a striking appearance</h1>
+                <br>
+
+                <p class="text-sm text-[#494949] lg:text-base font-medium">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+                <br>
+            <div class="">
+            <button class="bg-lime-200 px-6 py-3 rounded-[32px] lg:border lg:border-[#ABEF5F] text-[#212121] font-bold text-xl">View Details<i class="fa-solid fa-arrow-right ml-2 -rotate-45 bg-[#ABEF5F] p-2 rounded-full "></i></button>
+            </div>
+         </div>
+            
+        </header>
+    </main>
+</body>
+</html>
